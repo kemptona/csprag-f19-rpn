@@ -6,6 +6,6 @@ install:
   - pip install pytest-cov
   - pip install coveralls
 script:
-  - python3 test_rpn.py
+  - pytest --cov=test_rpn.py/
 after_success:
   - coveralls
