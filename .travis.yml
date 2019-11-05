@@ -3,6 +3,7 @@ python:
   - "3.6"
 install:
   - pip install coveralls
+  - pip install colorama
 script:
   coverage run test_rpn.py
 after_success:
