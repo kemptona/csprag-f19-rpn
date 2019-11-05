@@ -3,3 +3,4 @@ python:
   - "3.6"
 script:
   - python3 test_rpn.py
+  - coverage run test_rpn.py
